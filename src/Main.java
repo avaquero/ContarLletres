@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
+		//comentari
 		String frase;
 		int cont[] = new int[26];
 		
