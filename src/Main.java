@@ -18,7 +18,7 @@ public class Main {
 			char c = Character.toLowerCase(frase.charAt(i));
 			if(c >= 'a' && c <= 'z') cont[c-'a']++;
 		}
-		
+		//segon for
 		for (int i = 0; i < 26; i++) {
 			if (cont[i] > 0)
 				System.out.println((char)(i+'a')+ ": " + cont[i]);
