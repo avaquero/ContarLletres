@@ -14,6 +14,7 @@ public class Main {
 		System.out.println("Entra una frase:");
 		frase = llegir.nextLine();
 		
+		//primer for
 		for (int i = 0; i < frase.length(); i++) {
 			char c = Character.toLowerCase(frase.charAt(i));
 			if(c >= 'a' && c <= 'z') cont[c-'a']++;
