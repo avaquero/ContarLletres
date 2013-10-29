@@ -10,6 +10,7 @@ public class Main {
 		String frase;
 		int cont[] = new int[26];
 		
+		//scaner1
 		Scanner llegir = new Scanner(System.in);
 		System.out.println("Entra una frase:");
 		frase = llegir.nextLine();
